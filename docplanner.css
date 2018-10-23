@@ -1,0 +1,43 @@
+body{
+margin: 0px;
+
+}
+
+
+.header{
+width:70%;
+    display:flex;
+    flex: row;
+    justify-content: space-around;
+    border: 1px solid black;
+    height: 10%;
+    margin-left: 200px;
+
+}
+.logo{
+    width:268px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+    
+    
+
+
+.nav-menu{
+    display:flex;
+    flex: row;
+    
+
+}
+.nav-menu li{
+    display:flex;
+    flex: row;
+    
+    padding-left: 15px;
+    
+
+}
+a{
+    text-decoration: none;
+}
