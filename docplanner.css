@@ -5,19 +5,28 @@ margin: 0px;
 
 
 .header{
-width:70%;
+width: calc(100% - 100px) ;
+
     display:flex;
-    flex: row;
-    justify-content: space-around;
-    border: 1px solid black;
-    height: 10%;
-    margin-left: 200px;
+ 
+    justify-content: space-between;
+    
+    height: 70px;
+    background-color: #fff;
+    position: fixed;
+    top:0;
+    padding:0 50px;
+    
+
+}
+main{
+margin-top: 100px;
 
 }
 .logo{
     width:268px;
     height: 30px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
     
@@ -26,18 +35,337 @@ width:70%;
 
 .nav-menu{
     display:flex;
-    flex: row;
+
     
 
 }
 .nav-menu li{
     display:flex;
-    flex: row;
+
     
-    padding-left: 15px;
+    padding-left: 20px;
+    padding-top: 5px;
+    color: #ababab;
     
 
 }
+.nav-link{
+color: #ababab;
+}
+.nav-link1{
+    color: #00b39b;
+}
+
 a{
     text-decoration: none;
+}
+.healthcare-title{
+    
+display:block;
+text-align: center;
+margin-top: 25px;
+
+}
+
+.healthcare-main{
+display: flex;
+padding-left: 200px;
+}
+
+
+
+
+
+.healthcare-title h1{
+    
+    
+        font-size: 2.125rem;
+        color: #00b39b;
+    
+    margin-top: 25px;  
+    
+    
+    }
+
+.card-patient{
+    background: #00ccb1;
+    margin-top: 50px; 
+
+}
+
+.card-doctor{
+    
+    background: #3d83df;
+    margin-top: 50px; 
+
+    
+
+}
+.health-grid-left{
+    
+    width: 40%;
+    
+}
+.health-grid-right{
+    
+    
+    width: 40%;
+    padding-left: 30px;
+    
+    
+}
+.card-img-container{
+    display: flex;
+
+
+}
+
+.card-img img{
+    width:300px; 
+    height:200px;
+    
+}
+.card-description{
+    display: block;
+    width: 70%;
+    padding-left: 60px;
+    color: #fff;
+}
+.card-title{
+    margin-left: 60px;
+    padding-top: 10px;
+    color: hsla(0,0%,100%,.7);
+}
+.healthcare-campany{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    
+    justify-content: space-between;
+    width:70%;
+    margin-left: 200px;
+    
+    
+    
+
+
+}
+.healthcare-campany-logo img{
+    width:150px; 
+    height:60px;
+
+}
+.healthcare-campany-logo {
+    width:70%;
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+}
+.healthcare-campany-text{
+    
+    width:20%;
+    
+    color: #00b39b;
+}
+.acheivement-logo img{
+    width:450px;
+    height: 400px;
+
+
+}
+.section-acheivement{
+    display: flex;
+    background: #e5faf8;
+    justify-content: space-around;
+    height: 90%;
+    margin-top: 40px;
+
+
+}
+.left-section-acheivement{
+    width:40%;
+}
+.right-section-acheivement{
+    display: flex;
+    width: 35%;
+    
+    
+    
+
+
+}
+.post-acheivement{
+
+    width: 80%;
+    background-color: #fff;
+    
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    height: 220px;
+    padding:15px 10px;
+    
+   
+
+
+
+}
+.right-section1{
+    display: flex;
+    flex-direction: column;
+   
+    
+    justify-content: space-around;
+
+
+
+}
+.right-section2{
+    display: flex;
+    flex-direction: column;
+    
+    height: 90%;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+    
+
+
+
+}
+
+.acheivement-text1 h1 {
+
+    font-size: 2.125rem;
+    color: #00b39b;
+}
+.section-destination-text{
+display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.destination-title{
+    
+    text-align: center;
+    width: 25%;
+    margin: auto;
+    color: #00b39b;
+    
+    
+}
+.destination-text{
+    text-align: center;
+    width: 35%;
+    margin: auto;
+    color: #ababab;
+
+
+}
+.section-destination-card{
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+
+
+
+}
+.section-destination-card-hight{
+    
+    width:80%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-left:110px;
+
+
+
+}
+.section-destination-card-low{
+    
+    width:80%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-left:110px;
+
+
+
+}
+.card-hight{
+    display:flex;
+    flex-direction:column;
+    cursor: pointer;
+}
+.low-card{
+    display:flex;
+    justify-content:space-around;
+    
+
+}
+.footer{
+margin-top: 40px;
+border-top: 1px solid  #ababab;
+
+}
+.top-footer{
+    text-align: center;
+}
+.bottom-footer{
+    width:80%;
+    text-align: center;
+    margin: auto;
+
+}
+.card-img{
+    
+    
+    overflow: hidden;
+    margin-left: 100px;
+    
+    
+    
+}
+.card-img-left{
+    margin-left: 220px;
+
+}
+.patient-country{
+    padding: 20px;
+    
+
+}
+.low-card-low{
+    background: #3d83df;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    padding:5px;
+    
+   
+
+
+
+}
+
+.section-destination-card-low{
+    margin-top: 10px;
+}
+.low-card{
+border-left: 1px solid #ababab;
+border-right:1px solid #ababab;
+border-bottom: 1px solid #ababab;
+
+
+}
+
+
+.card-hight:hover{
+    box-shadow: 0px 5px 10px #dbd6d6;
 }
